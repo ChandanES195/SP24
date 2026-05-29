@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "bun install",
   "buildCommand": "bun run build",
-  "framework": "vite",
   "rewrites": [
     {
       "source": "/live",
@@ -12,5 +11,5 @@
       "source": "/(.*)",
       "destination": "/"
     }
-  ]git
+  ]
 }
